@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+    "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery.sparkline.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <script type="text/javascript">
+    $(function() {
+
+        /* Market Value array should dynamically get the property values for the latest 10 to 15 property listings */
+        /* jquery.sparkline js file needs to be minified and streamlined */
+
+        var property_values = [5.1,5.3,5.2,5.4,5.9,6.0,6.1,6.6,6.8,6.9];
+        var bid_values = [5.7,5.2,5.5,5.5,6.0,6.1,5.4, 5.6, 6, 6.1];
+
+        var heat_line = $.range_map({
+        	'5.1': 'red',
+        	'5.2:5.9': 'yellow',
+        	'6:7': 'red'
+    	})
+
+        $('.dynamicsparkline1').sparkline(property_values, {
+        	width:'160px',
+        	height: '70px',
+        	lineWidth: '3',
+        	spotRadius: '5',
+        	spotColor: '#356aa6',
+        	minSpotColor: false,
+        	maxSpotColor: false,
+        	lineColor: '#d7e1ed',
+        	fillColor: false,
+        	highlightLineColor: '#d7e1ed',
+        	highlightSpotColor: '#356aa6',        	
+        	}
+        );
+
+        $('.dynamicsparkline2').sparkline(bid_values, {
+        	width:'160px',
+        	height: '70px',
+        	lineWidth: '3',
+        	spotRadius: '5',
+        	spotColor: '#333333',
+        	minSpotColor: false,
+        	maxSpotColor: false,
+        	lineColor: '#d6d6d6',
+        	fillColor: false,
+        	highlightLineColor: '#d6d6d6',
+        	highlightSpotColor: '#333333',
+        	}
+        );
+
+    });
+    </script>
+</head>
+
+<body>
+
+	<div class="bc_market"><span class="dynamicsparkline1">Loading...</span></div>
+	<div class="bc_market"><span class="dynamicsparkline2">Loading...</span></div>
+
+</body>
+
+</html>
