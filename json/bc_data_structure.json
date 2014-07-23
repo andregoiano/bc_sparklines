@@ -1,6 +1,6 @@
-{"brokerconnector_app": {
+{ "brokerconnector_app": {
 
-	"app_information": {},
+	"appGeneralInformation": {},
 	
 		"brokerID": "UID000001",
 			"brokerSettings": {
@@ -29,7 +29,7 @@
 					"brokerDaysSinceLastLogin": 0,
 					},
 
-				"brokerCRM": {
+				"brokerCRMinformation": {
 					"isConnected": true,
 					"brokerCRMURL": "http://xml.propspace.com/asiufaugf0fgh082yr13ur0qh0sas.xml",
 					},
@@ -38,11 +38,14 @@
 
 				"brokerPlanInformation": {},
 
-				"brokerConnections": {},
+				"brokerConnections": {
+					"numberOfConnectionsMade": 29,
+					},
 
 				},
 
 				"mySellers": {
+					"numberOfListedSellers": 4,
 					"sellerID": "SID000001" {
 						"sellerEmailAddress": "seller@email.com",
 						"sellerMobile": 971,
@@ -50,10 +53,22 @@
 						},
 					},
 
-				"myBuyers": {},
+				"myBuyers": {
+					"numberOfListedBuyers": 8,
+					"buyerID": "BID000001" {
+						"buyerEmailAddress": "seller@email.com",
+						"buyerMobile": 971,
+						"buyerMobileNumber": 567448392,
+						},
+					},
 
-				"myMarkets": {},
+				"myMarkets": {
+					"numberOfSavedMarkets": 7,
+					},
 
-				"notifications": {},
-		
+				"notifications": {
+					"numberOfReceivedNotifications": 3,
+					},
+
+		"brokerID": "UID000002" {},
 }}
