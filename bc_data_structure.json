@@ -1,0 +1,59 @@
+{"brokerconnector_app": {
+
+	"app_information": {},
+	
+		"brokerID": "UID000001",
+			"brokerSettings": {
+				"brokerEmailAddress": "work@email.com",
+				"brokerFirstname": "Dave",
+				"brokerLastname": "Stainton",
+				"brokerCity": "Dubai",
+				"brokerCountry": "United Arab Emirates",
+				"brokerTimezone": "Abu Dhabi/Asia",
+				"brokerMobileContryCode": 971,
+				"brokerMobileNumber": 567448969,
+				"brokerRERAnumber": 28509123,
+
+				"brokerCompanyInformation": {
+					"companyName": "Mylo Real Estate",
+					"companyAddress": "PO BOX 201243",
+					"companyCity": "Dubai",
+					"companyZIPcode": 201243,
+					"companyCountry": "United Arab Emirates",
+					},
+
+				"brokerLogins": {
+					"brokerIsLoggedInNow": false,
+					"brokerLastLogin": "2012-03-24 17:45:12",
+					"brokerNumberOfLogins": 5,
+					"brokerDaysSinceLastLogin": 0,
+					},
+
+				"brokerCRM": {
+					"isConnected": true,
+					"brokerCRMURL": "http://xml.propspace.com/asiufaugf0fgh082yr13ur0qh0sas.xml",
+					},
+
+				"brokerBillingInformation": {},
+
+				"brokerPlanInformation": {},
+
+				"brokerConnections": {},
+
+				},
+
+				"mySellers": {
+					"sellerID": "SID000001" {
+						"sellerEmailAddress": "seller@email.com",
+						"sellerMobile": 971,
+						"sellerMobileNumber": 567448392,
+						},
+					},
+
+				"myBuyers": {},
+
+				"myMarkets": {},
+
+				"notifications": {},
+		
+}}
