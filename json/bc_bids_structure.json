@@ -1,5 +1,12 @@
 { "bcBidStructure": {
 
-	"bcBidInformation": "",
+	"bcBidUniqueID": "BiID0000001",
+	"bcBidFeatured": false,
 
+	"bcBidInformation": {
+		"bcBidValue": 5.1,
+		"bcBidCurrency": "AED",
+		"bcBidTimeAdded": datetime,
+		"bcBidBuyer": "BuID000002",
+		},
 }}

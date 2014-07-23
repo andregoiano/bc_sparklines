@@ -1,5 +1,12 @@
 { "bcUnitStructure": {
 
-	"bcUnitInformation": "",
+	"bcUnitUniqueID": "UnID0000001",
+	"bcUnitFeatured": false,
 
+	"bcUnitInformation": {
+		"bcUnitValue": 5.1,
+		"bcUnitCurrency": "AED",
+		"bcUnitTimeAdded": datetime,
+		"bcUnitSeller": "SeID0000002",
+		},
 }}

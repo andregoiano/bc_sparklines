@@ -1,74 +1,93 @@
 { "brokerconnector_app": {
 
 	"appGeneralInformation": {},
-	
-		"brokerID": "UID000001",
-			"brokerSettings": {
-				"brokerEmailAddress": "work@email.com",
-				"brokerFirstname": "Dave",
-				"brokerLastname": "Stainton",
-				"brokerCity": "Dubai",
-				"brokerCountry": "United Arab Emirates",
-				"brokerTimezone": "Abu Dhabi/Asia",
-				"brokerMobileContryCode": 971,
-				"brokerMobileNumber": 567448969,
-				"brokerRERAnumber": 28509123,
 
-				"brokerCompanyInformation": {
-					"companyName": "Mylo Real Estate",
-					"companyAddress": "PO BOX 201243",
-					"companyCity": "Dubai",
-					"companyZIPcode": 201243,
-					"companyCountry": "United Arab Emirates",
-					},
+		"brokerInformation": {
+			"brokerUniqueID": "BrID000001",
+			"brokerRegisteredIP": 192.168.1.43,
+			"brokerEmailAddress": "work@email.com",
+			"brokerFirstname": "Dave",
+			"brokerLastname": "Stainton",
+			"brokerCity": "Dubai",
+			"brokerCountry": "United Arab Emirates",
+			"brokerTimezone": "Abu Dhabi/Asia",
+			"brokerMobileCountryCode": 971,
+			"brokerMobileNumber": 567448969,
+			"brokerRERAnumber": 28509123,
 
-				"brokerLogins": {
-					"brokerIsLoggedInNow": false,
-					"brokerLastLogin": "2012-03-24 17:45:12",
-					"brokerNumberOfLogins": 5,
-					"brokerDaysSinceLastLogin": 0,
-					},
-
-				"brokerCRMinformation": {
-					"isConnected": true,
-					"brokerCRMURL": "http://xml.propspace.com/asiufaugf0fgh082yr13ur0qh0sas.xml",
-					},
-
-				"brokerBillingInformation": {},
-
-				"brokerPlanInformation": {},
-
-				"brokerConnections": {
-					"numberOfConnectionsMade": 29,
-					},
-
+			"brokerCompanyInformation": {
+				"companyName": "Mylo Real Estate",
+				"companyAddress": "PO BOX 201243",
+				"companyPhoneNumberCountryCode": 971,					
+				"companyPhoneNumber": 48392281,
+				"companyCity": "Dubai",
+				"companyZIPcode": 201243,
+				"companyCountry": "United Arab Emirates",
 				},
 
-				"mySellers": {
-					"numberOfListedSellers": 4,
-					"sellerID": "SID000001" {
-						"sellerEmailAddress": "seller@email.com",
-						"sellerMobile": 971,
-						"sellerMobileNumber": 567448392,
-						},
-					},
+			"brokerLogins": {
+				"brokerIsLoggedInNow": false,
+				"brokerLastLogin": "2012-03-24 17:45:12",
+				"brokerNumberOfLogins": 5,
+				"brokerDaysSinceLastLogin": 0,
+				},
 
-				"myBuyers": {
-					"numberOfListedBuyers": 8,
-					"buyerID": "BID000001" {
-						"buyerEmailAddress": "seller@email.com",
-						"buyerMobile": 971,
-						"buyerMobileNumber": 567448392,
-						},
-					},
+			"brokerCRMinformation": {
+				"isConnected": true,
+				"brokerCRMURL": "http://xml.propspace.com/asiufaugf0fgh082yr13ur0qh0sas.xml",
+				},
 
-				"myMarkets": {
-					"numberOfSavedMarkets": 7,
-					},
+			"brokerBillingInformation": {
+				"creditCard": {
+					"creditCardName": "Dave Stainton",
+					"creditCardNumber": "4213 3782 7823 2323",
+					"creditCardBillingAddress": ,
+					"creditCardCVV": "123",
+					}
+				},
 
-				"notifications": {
-					"numberOfReceivedNotifications": 3,
-					},
+			"brokerPlanInformation": {
+				"brokerPlan": "Individual",
+				"brokerSuperPowers": null,
+				"brokerPlanStartDate": datetime,
+				},
 
-		"brokerID": "UID000002" {},
+			"brokerConnections": {
+				"numberOfConnectionsMade": 29,
+					"ConnectionsMade": ["BrID000001", "BrID000002", "BrID000004", "BrID000005"],
+				},
+
+			},
+
+			"mySellers": {
+				"numberOfListedSellers": 4,
+				"ListedSellers": ["SeID000001", "SeID000002", "SeID000003"],
+
+				"sellerUniqueID": "SeID000001" {
+					"sellerEmailAddress": "seller@email.com",
+					"sellerMobileCountryCode": 971,
+					"sellerMobileNumber": 567448392,
+					},
+				},
+
+			"myBuyers": {
+				"numberOfListedBuyers": 8,
+				"ListedBuyers": ["BuID000001", "BuID000003", "BuID000004"],
+
+				"buyerUniqueID": "BuID000001" {
+					"buyerEmailAddress": "seller@email.com",
+					"buyerMobileCountryCode": 971,
+					"buyerMobileNumber": 567448392,
+					},
+				},
+
+			"myMarkets": {
+				"numberOfSavedMarkets": 7,
+					"savedMarkets": ["MaID000004", "MaID000003", "MaID000005", "MaID000003"],
+				},
+
+			"notifications": {
+				"numberOfReceivedNotifications": 3,
+					"ReceivedNotifications": ["NoID0000001", "NoID0000002", "NoID0000004"],
+				},
 }}
