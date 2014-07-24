@@ -30,6 +30,11 @@
 				"companyCountry": "United Arab Emirates",
 				},
 
+			"brokerSocialInformation": {
+				"brokerFacebookID": ,
+				"brokerLinkedInID": ,
+				},
+
 			"brokerLogins": {
 				"brokerIsLoggedInNow": false,
 				"brokerLastLogin": timestamp,
@@ -75,10 +80,19 @@
 				"numberOfTotalListedSellers": 4,
 				"ListedSellers": ["SeID000001", "SeID000002", "SeID000003"],
 				
-				"sellerUniqueID": "SeID000001" {
-					"sellerEmailAddress": "seller@email.com",
-					"sellerMobileCountryCode": 971,
-					"sellerMobileNumber": 567448392,
+				"bcSellerUniqueID": "SeID000001" {
+					"bcSellerCreationDate": timestamp,
+					"bcSellerLastUpdated": timestamp,
+					"bcSellerFromIPCreation": 192.168.1.1,
+					"bcSellerFirstName": "Mark",
+					"bcSellerLastName": "Ronson",
+					"bcSellerEmailAddress": "seller@email.com",
+					"bcSellerMobileCountryCode": 971,
+					"bcSellerMobileNumber": 567448392,
+					"bcSellerNotes": {
+						{ "bcSellerNotes1": "First personal note on this seller", }
+						{ "bcSellerNotes2": "Second personal note on this seller", }
+						},
 					},
 				},
 
@@ -86,10 +100,20 @@
 				"numberOfTotalListedBuyers": 8,
 				"ListedBuyers": ["BuID000001", "BuID000003", "BuID000004"],
 
-				"buyerUniqueID": "BuID000001" {
-					"buyerEmailAddress": "seller@email.com",
-					"buyerMobileCountryCode": 971,
-					"buyerMobileNumber": 567448392,
+				"bcBuyerUniqueID": "BuID000001" {
+					"bcBuyerCreationDate": timestamp,
+					"bcBuyerLastUpdated": timestamp,
+					"bcBuyerFromIPCreation": 192.168.1.1,
+					"bcBuyerFirstName": "Richard",
+					"bcBuyerLastName": "Ashcroft",
+					"bcBuyerEmailAddress": "seller@email.com",
+					"bcBuyerMobileCountryCode": 971,
+					"bcBuyerMobileNumber": 567448392,
+					"bcBuyerNotes": {
+						{ "bcBuyerrNotes1": "First personal note on this buyer", }
+						{ "bcBuyerNotes2": "Second personal note on this buyer", }
+						},
+					},
 					},
 				},
 
@@ -99,7 +123,7 @@
 				},
 
 			"brokerNotifications": {
-				"numberOfTotalReceivedNotifications": 3,
+				"numberOfTotalReceivedNotifications": 5,
 				"ReceivedNotifications": ["NoID0000001", "NoID0000002", "NoID0000004"],
 				},
 }}

@@ -1,15 +1,28 @@
 { "bcUnitStructure": {
 
 	"bcUnitUniqueID": "UnID0000001",
+	"bcUnitTimeAdded": timestamp,
 	"bcUnitFeatured": false,
+
+	"bcUnitGeospatialEpicenter": [62.323907, -150.109291],
 
 	"bcUnitInformation": {
 		"bcUnitOwner": "BrID00000001",
 		"bcUnitSeller": "SeID00000002",
 		"bcUnitMarketID": "MaID0000001",
+		"bcUnitType": "Sale",
 		"bcUnitCurrentValue": 5.1,
 		"bcUnitCurrency": "AED",
-		"bcUnitTimeAdded": timestamp,
+		"bcUnitMoreInformation": "Additional information for this entry",
+		"bcUnitAvailableTags": {},
+		"bcUnitStatus": "Available",
+		},
+
+	"bcUnitDetais": {
+		"bcUnitSquareMeters": 1013,
+		"bcUnitDeveloper": "Emaar",
+		"bcUnitYearOfDevelopment": 2010,
+		"bcUnit"
 		},
 
 	"bcUnitUpdates": [

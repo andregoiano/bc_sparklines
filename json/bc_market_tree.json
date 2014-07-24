@@ -1,16 +1,21 @@
 { "bcMarketTrees": {
 
 	"bcMarketUniqueID": "MaID000001",
+	"bcMarketType": "Sale",
 	"bcMarketFeatured": false,
 
-	"bcMarketLocation": {
+	"bcMarketLocationTree": {
+		"bcMarketGeospatialEpicenter": [62.323907, -150.109291],
+		"bcMarketGeoJSONPolyCoordinates": [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0] ],
 		"bcMarketRegion": "Middle East",
 		"bcMarketCountry": "United Arab Emirates",
 		"bcMarketCity": "Dubai",
 		"bcMarketCommunity": "Emirates Living",
 		"bcMarketSubCommunity": "The Lakes",
 		"bcMarketDistrict": "Deema",
-		"bcMarketSubDistrict": "3",
+		"bcMarketSubDistrict": 3,
+
+		"bcMarketPropertyType": 3,
 		"bcMarketAvailableTags": [
 			{ "bcMarketTag1": "Road View" },
 			{ "bcMarketTag2": "Lake View" },

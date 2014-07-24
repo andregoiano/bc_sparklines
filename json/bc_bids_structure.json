@@ -1,15 +1,18 @@
 { "bcBidStructure": {
 
 	"bcBidUniqueID": "BiID0000001",
+	"bcBidTimeAdded": timestamp,
 	"bcBidFeatured": false,
 
 	"bcBidInformation": {
 		"bcBidOwner": "BrID00000001",
 		"bcBidBuyer": "BuID00000002",
 		"bcBidtMarketID": "MaID0000001",
+		"bcBidType": "Sale",
 		"bcBidCurrentValue": 5.1,
 		"bcBidCurrency": "AED",
-		"bcBidTimeAdded": timestamp,
+		"bcBidMoreInformation": "Additional information for this entry",
+		"bcBidAvailableTags": {},
 		},
 
 	"bcBidUpdates": [
