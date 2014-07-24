@@ -1,13 +1,15 @@
-{ "bcNotifications": {
+{ "bcNotificationStructure": {
 
 	"bcNotificationUniqueID": "NoID0000001",
 	"bcNotificationFeatured": false,
+	"bcNotificationRead": true,
+	"bcNotificationHiddenFromView": false,
+	"bcNotificationTimeSent": timestamp,
+	"bcNotificationTimeReceived": timestamp,
 
-	"bcNotificationInformation": {
-		"bcNotificationSender": "BrokerConnector",
+	"bcNotificationContent": {
+		"bcNotificationSenderName": "BrokerConnector",
 		"bcNotificationMessage": "Here's a message from BrokerConnector",
 		"bcNotificationLink": "http://app.brokerconnector.com/notifications/30871u2125124dfs241fwf3",
-		"bcNotificationTimeSent": datetime,
-		"bcNotificationTimeReceived": datetime,
 		},
 }}

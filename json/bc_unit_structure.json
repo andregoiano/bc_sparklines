@@ -4,9 +4,37 @@
 	"bcUnitFeatured": false,
 
 	"bcUnitInformation": {
-		"bcUnitValue": 5.1,
+		"bcUnitOwner": "BrID00000001",
+		"bcUnitSeller": "SeID00000002",
+		"bcUnitMarketID": "MaID0000001",
+		"bcUnitCurrentValue": 5.1,
 		"bcUnitCurrency": "AED",
-		"bcUnitTimeAdded": datetime,
-		"bcUnitSeller": "SeID0000002",
+		"bcUnitTimeAdded": timestamp,
 		},
+
+	"bcUnitUpdates": [
+		{ "bcUnitUpdatedTimestamp1": timestamp },
+		{ "bcUnitUpdatedTimestamp2": timestamp },
+		{ "bcUnitUpdatedTimestamp3": timestamp },
+		],
+
+	"bcUnitReports": [
+		{ "bcUnitReported1": timestamp, "Report Message" , "BrID00000001" },
+		{ "bcUnitReported1": timestamp, "Report Message" , "BrID00000001" },
+		{ "bcUnitReported1": timestamp, "Report Message" , "BrID00000001" },
+	],
+
+	"bcUnitConnectedBrokers": [
+		{ "bcUnitBrokerConnected": timestamp, "BrID00000001" },
+		{ "bcUnitBrokerConnected": timestamp, "BrID00000002" },
+		{ "bcUnitBrokerConnected": timestamp, "BrID00000003" },		
+	],
+
+	"bcUnitPictureCollection": [
+		{ "bcUnitPictureURL1": "http://app.brokerconnector.com/listings/Units/BiID0000001/pictures/19571id012bf93.png" },
+		{ "bcUnitPictureURL2": "http://app.brokerconnector.com/listings/Units/BiID0000001/pictures/19571id012bf93.png" },
+		{ "bcUnitPictureURL3": "http://app.brokerconnector.com/listings/Units/BiID0000001/pictures/19571id012bf93.png" },
+
+	],
+
 }}

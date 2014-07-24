@@ -1,10 +1,15 @@
-{ "brokerconnector_app": {
+{ "brokerConnectorApp": {
 
 	"appGeneralInformation": {},
+	"appTotalRegisteredUsers": {},
+	"appTotalChurnedUsers": {},
+	"appDailyActiveUsers": {},
+	"appMonthlyActiveUsers": {},
 
-		"brokerInformation": {
+		"appBrokersList": {
+
 			"brokerUniqueID": "BrID000001",
-			"brokerRegisteredIP": 192.168.1.43,
+			"brokerRegisteredIPAddress": 192.168.1.43,
 			"brokerEmailAddress": "work@email.com",
 			"brokerFirstname": "Dave",
 			"brokerLastname": "Stainton",
@@ -27,23 +32,30 @@
 
 			"brokerLogins": {
 				"brokerIsLoggedInNow": false,
-				"brokerLastLogin": "2012-03-24 17:45:12",
+				"brokerLastLogin": timestamp,
+				"brokerSessionLog": [ timestamp, timestamp, timestamp ],
 				"brokerNumberOfLogins": 5,
 				"brokerDaysSinceLastLogin": 0,
 				},
 
 			"brokerCRMinformation": {
-				"isConnected": true,
+				"_isConnected": true,
+				"brokerCRMProvider": "Masterkey",
 				"brokerCRMURL": "http://xml.propspace.com/asiufaugf0fgh082yr13ur0qh0sas.xml",
 				},
 
 			"brokerBillingInformation": {
-				"creditCard": {
-					"creditCardName": "Dave Stainton",
-					"creditCardNumber": "4213 3782 7823 2323",
-					"creditCardBillingAddress": ,
-					"creditCardCVV": "123",
-					}
+				"brokerBillingAddress": {},
+				"brokerPaymentMethods": {
+					"creditCardInformation": {
+						"creditCardName": "Dave Stainton",
+						"creditCardNumber": "4213 3782 7823 2323",
+						"creditCardBillingAddress": ,
+						"creditCardCVV": "123",
+					},
+					"PayPalInformation": {},
+					"BankAccountInformation": {},
+					},
 				},
 
 			"brokerPlanInformation": {
@@ -53,16 +65,16 @@
 				},
 
 			"brokerConnections": {
-				"numberOfConnectionsMade": 29,
-					"ConnectionsMade": ["BrID000001", "BrID000002", "BrID000004", "BrID000005"],
+				"numberOfTotalConnectionsMade": 29,
+					"brokerConnectionsMade": ["BrID000001", "BrID000002", "BrID000004", "BrID000005"],
 				},
 
 			},
 
 			"mySellers": {
-				"numberOfListedSellers": 4,
+				"numberOfTotalListedSellers": 4,
 				"ListedSellers": ["SeID000001", "SeID000002", "SeID000003"],
-
+				
 				"sellerUniqueID": "SeID000001" {
 					"sellerEmailAddress": "seller@email.com",
 					"sellerMobileCountryCode": 971,
@@ -71,7 +83,7 @@
 				},
 
 			"myBuyers": {
-				"numberOfListedBuyers": 8,
+				"numberOfTotalListedBuyers": 8,
 				"ListedBuyers": ["BuID000001", "BuID000003", "BuID000004"],
 
 				"buyerUniqueID": "BuID000001" {
@@ -82,12 +94,12 @@
 				},
 
 			"myMarkets": {
-				"numberOfSavedMarkets": 7,
-					"savedMarkets": ["MaID000004", "MaID000003", "MaID000005", "MaID000003"],
+				"numberOfTotalSavedMarkets": 7,
+				"mySavedMarkets": ["MaID000004", "MaID000003", "MaID000005", "MaID000003"],
 				},
 
-			"notifications": {
-				"numberOfReceivedNotifications": 3,
-					"ReceivedNotifications": ["NoID0000001", "NoID0000002", "NoID0000004"],
+			"brokerNotifications": {
+				"numberOfTotalReceivedNotifications": 3,
+				"ReceivedNotifications": ["NoID0000001", "NoID0000002", "NoID0000004"],
 				},
 }}

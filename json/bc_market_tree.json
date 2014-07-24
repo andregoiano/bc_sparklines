@@ -12,9 +12,9 @@
 		"bcMarketDistrict": "Deema",
 		"bcMarketSubDistrict": "3",
 		"bcMarketAvailableTags": [
-			{tag: "Road View"},
-			{tag: "Lake View"},
-			{tag: "Near Pub"},
+			{ "bcMarketTag1": "Road View" },
+			{ "bcMarketTag2": "Lake View" },
+			{ "bcMarketTag3": "Near Pub" },
 		]
 		},
 
@@ -24,9 +24,9 @@
 		"bcMarketAllTimeBids": 100,
 		"bcMarketAllTimeUnits": 100,	
 		"bcMarketLatestBidValue": 5.1,
-		"bcMarketLatestBidTime": datetime,
+		"bcMarketLatestBidTime": timestamp,
 		"bcMarketLatestUnitValue": 5.3,
-		"bcMarketLatestUnitTime": datetime,
+		"bcMarketLatestUnitTime": timestamp,
 		},
 
 	"bcMarketActivity": {
@@ -34,11 +34,13 @@
 		"bcMarketAttention": 0.89,
 		},
 
-	"bcMarketTrends": {
-		"bcMarketAcitivityRanking": 3,
-		"bcMarketBidTrendLine": [latest 15 entries],
-		"bcMarketUnitTrendLine": [latest 15 entries],
+	"bcMarketTrend": {
+		"bcMarketAcitivityRanking": [3, 829392]
+		"bcMarketBidTrendLine": [ latest 15 entries],
+		"bcMarketUnitTrendLine": [ latest 15 entries ],
 		},
 
-	"bcMarketFreshness": {},
+	"bcMarketFreshnessRate": {
+
+		},
 }}
