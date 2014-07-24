@@ -1,0 +1,40 @@
+{ "bcBidStructure": {
+
+	"bcBidUniqueID": "BiID0000001",
+	"bcBidFeatured": false,
+
+	"bcBidInformation": {
+		"bcBidOwner": "BrID00000001",
+		"bcBidBuyer": "BuID00000002",
+		"bcBidtMarketID": "MaID0000001",
+		"bcBidCurrentValue": 5.1,
+		"bcBidCurrency": "AED",
+		"bcBidTimeAdded": timestamp,
+		},
+
+	"bcBidUpdates": [
+		{ "bcBidUpdatedTimestamp1": timestamp, "bcNewBidValue1" },
+		{ "bcBidUpdatedTimestamp2": timestamp, "bcNewBidValue2"  },
+		{ "bcBidUpdatedTimestamp3": timestamp, "bcNewBidValue3" },
+		],
+
+	"bcBidReports": [
+		{ "bcBidReported1": timestamp, "Report Message" , "BrID00000001" },
+		{ "bcBidReported1": timestamp, "Report Message" , "BrID00000001" },
+		{ "bcBidReported1": timestamp, "Report Message" , "BrID00000001" },
+	],
+
+	"bcBidConnectedBrokers": [
+		{ "bcBidBrokerConnected": timestamp, "BrID00000001" },
+		{ "bcBidBrokerConnected": timestamp, "BrID00000002" },
+		{ "bcBidBrokerConnected": timestamp, "BrID00000003" },		
+	],
+
+	"bcBidPictureCollection": [
+		{ "bcBidPictureURL1": "http://app.brokerconnector.com/listings/bids/BiID0000001/pictures/19571id012bf93.png" },
+		{ "bcBidPictureURL2": "http://app.brokerconnector.com/listings/bids/BiID0000001/pictures/19571id012bf93.png" },
+		{ "bcBidPictureURL3": "http://app.brokerconnector.com/listings/bids/BiID0000001/pictures/19571id012bf93.png" },
+
+	],
+
+}}

@@ -1,0 +1,46 @@
+{ "bcMarketTrees": {
+
+	"bcMarketUniqueID": "MaID000001",
+	"bcMarketFeatured": false,
+
+	"bcMarketLocation": {
+		"bcMarketRegion": "Middle East",
+		"bcMarketCountry": "United Arab Emirates",
+		"bcMarketCity": "Dubai",
+		"bcMarketCommunity": "Emirates Living",
+		"bcMarketSubCommunity": "The Lakes",
+		"bcMarketDistrict": "Deema",
+		"bcMarketSubDistrict": "3",
+		"bcMarketAvailableTags": [
+			{ "bcMarketTag1": "Road View" },
+			{ "bcMarketTag2": "Lake View" },
+			{ "bcMarketTag3": "Near Pub" },
+		]
+		},
+
+	"bcMarketSnapshot": {
+		"bcMarketTotalAvailableBids": 29,
+		"bcMarketTotalAvailableUnits": 21,
+		"bcMarketAllTimeBids": 100,
+		"bcMarketAllTimeUnits": 100,	
+		"bcMarketLatestBidValue": 5.1,
+		"bcMarketLatestBidTime": timestamp,
+		"bcMarketLatestUnitValue": 5.3,
+		"bcMarketLatestUnitTime": timestamp,
+		},
+
+	"bcMarketActivity": {
+		"bcMarketBullBearRate": -0.78,
+		"bcMarketAttention": 0.89,
+		},
+
+	"bcMarketTrend": {
+		"bcMarketAcitivityRanking": [3, 829392]
+		"bcMarketBidTrendLine": [ latest 15 entries],
+		"bcMarketUnitTrendLine": [ latest 15 entries ],
+		},
+
+	"bcMarketFreshnessRate": {
+
+		},
+}}
