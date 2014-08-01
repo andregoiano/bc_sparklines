@@ -1,0 +1,763 @@
+# source: propertyfinder.ae
+# source2: dubizzle.ae
+# source3: 
+# Only Dubai communities for now
+
+# Proposed structure
+
+Buy/Rent
+	Property Type
+		Country
+			City
+				Community
+					Subcommunity
+						Neighborhood
+							Type
+								Tags
+
+
+Buy
+	Villas
+		United Arab Emirates
+			Dubai
+				Academic City
+					Block 3
+					Block 5
+					Block 6
+					Block 7
+					Block 8
+					Block 9
+				Al Aweer
+					Al Aweer Village
+						Desert Village
+					Warsan Estate
+						Warsan Estate
+				Al Bada'a
+					Al Bada'a
+						Al Bada'a Street
+				Al Barari
+					Al Barari Villas
+						Acacia
+						Bromellia
+						Camellia
+						Dahlia
+					Ashjar
+					Seventh Heaven
+					The Reserve
+					Wadi al Safa
+				Al Barsha
+					Al Barsha 1
+					Al Barsha 3
+					Al Barsha 5
+					Al Barsha South
+				Al Furjan
+					Avenue Residence
+					East Village
+					North Village
+					South Village
+					West Village
+					Phase 1
+					Phase 2
+					Phase 3
+					The Dreamz
+					Village Center
+				Al Garhoud
+					Airport Road Area
+					Al Garhoud
+				Al Hamriya
+					Al Hamriya
+					Al Wuheida
+				Al Jaddaf
+					Al Jaddaf
+				Al Jafiliya
+					Al Jafiliya
+				Al Karama
+					Al Karama
+					Karama Park Area
+					Shaikh Hamdan Colony
+				Al Khawaneej
+					Al Khawaneej 1
+					Al Khawaneej 2
+				Al Mizhar
+					Al Mizhar 1
+					Al Mizhar 2
+				Al Muhaisnah
+					Al Muhaisnah 1
+					Al Muhaisnah 2
+					Al Muhaisnah 3
+					Al Muhaisnah 4
+					Sonapur
+				Al Nahda Dubai
+					Al Nahda 1
+					Al Nahda 2
+				Al Qasba'a
+					Al Qasba'a
+				Al Quoz
+					Al Quoz 1
+					Al Quoz 2
+					Al Quoz 3
+					Al Quoz 4
+					Al Quoz Industrial Area
+				Al Qusais
+					Al Qusais
+					Al Qusais Industrial Area
+					Al Qusais Residential Area
+				Al Rashidiya
+					Al Rashidiya
+				Al Safa
+					Al Safa 1
+					Al Safa 2
+					Al Safa 3
+				Al Satwa
+					Al Diyafah
+					Al Hudaiba
+					Satwa Road
+				Al Shindagah
+					Al Shindagah
+				Al Sufouh
+					Acacia Avenues
+					Al Sufouh 1
+					Al Sufouh 2
+					Al Sufouh Road
+				Al Twar
+					Al Twar 1
+					Al Twar 2
+					Al Twar 3
+				Al Warqa'a
+					Al Warqa'a 1
+					Al Warqa'a 2
+					Al Warqa'a 3
+					Al Warqa'a 4
+					Al Warqa'a 5
+				Al Wasl
+					Al Manara
+					Al Wasl Road
+				Arabian Ranches
+					Al Mahra
+					Al Reem
+					Alma
+					Alvorada
+					Aseel Villas
+					Casa
+					Golf Homes
+					Hattan
+					La Avenida
+					Lila
+					Mirador
+					Mirador La Colección
+					Palma
+					Palmera
+					Polo Homes
+					Rasha Villas
+					Rosa Villas
+					Saheel
+					Samara
+					Savannah
+					Terra Nova
+					Yasmin Villas
+				Bur Dubai
+					Al Ghubaiba Area
+					Al Rafa'a
+					Al Souk Al Kabeer
+					Khalid Bin Al Waleed Street
+					Mankhool
+					Mankhool Road
+					Mina Street
+					Oud Metha
+				Business Bay
+					Bay Square
+					Bristol Towers
+					Business Bay
+					Capital Bay
+					Churchill Towers
+					Damac Towers
+					Emirates Park
+					Empire Heights
+					Executive Towers
+					Hydra Twin Towers
+					Lotus
+					Niki Lauda Twin Tower
+					Signature Towers
+					Sky Towers
+					Sobha Ivory Towers
+					Starhill Towers & Gallery
+					Tasameem Towers
+					The Atria
+					The Oberoi Centre
+					Ubora Towers
+					Westburry Square
+				Culture Village
+					Culture Village
+					Santeview
+				Deira
+					Abu Baker Al Siddique Road
+					Abu Hail
+					Al Baraha
+					Al Hamriya
+					Al Khabisi
+					Al Mamzar
+					Al Muraqqabat
+					Al Murar
+					Al Muteena
+					Al Ras
+					Al Riqqa
+					Baniyas Road
+					Baniyas Square
+					Corniche Deira
+					Deira Island
+					Emaar Towers
+					Hor Al Anz
+					International Airport Area
+					Maktoum Road
+					Nad Shamma
+					Naif
+					Port Saeed
+					Riggat Al Buteen
+					Salah Al Din Street
+				DIFC
+					Central Park Tower
+					Currency House
+					DIFC
+					DIFC Tower
+					Emirates Financial Towers
+					Gate Boulevard
+					Park Towers
+					The Gate Precinct
+				Discovery Gardens
+					Cactus
+					Contemporary Cluster
+					Ibn Battuta Gate
+					Mediterranean Cluster
+					Mesoamerican
+					Mogul Cluster
+					Terra Del Sol
+					Zen Cluster
+				Downtown Dubai
+					29 Burj Boulevard
+					BLVD Crescent
+					Boulevard Central Towers
+					Boulevard Plaza Towers
+					Burj Khalifa Area
+					Burj Park
+					Burj Place
+					Burj Views
+					Burj Vista
+					Claren Towers
+					Downtown Dubai
+					Emaar Square
+					Mohammad Bin Rashid Boulevard
+					Paramount Towers
+					South Ridge
+					Standpoint Towers
+					The Address Fountain Views
+					The Address Sky View Towers
+					The Grand Boulevard
+					The Lofts
+					The Residences
+				Downtown Jebel Ali
+					Celestial Heights
+					Deyaar Park
+					Downtown Jebel Ali
+					Image Residences
+					KPM Twin Towers
+					Parkside Towers
+					Schon Residences
+					Sienna Square
+					Suburbia
+					The Galleries
+				Dubai Festival City
+					Dubai Festival City
+					Four Seasons
+				Dubai Healthcare City
+					Dubai Healthcare city
+				Dubai Hills Estate
+					Park Heights
+				Dubai Industrial City
+					Base Metal Zone
+					Chemicals Zone
+					Food and Beverage Zone
+					Industrial Zone
+					Machinery & Mechanical Equipment Zone
+					Mineral Products Zone
+					Sahara Living
+					Transport & Equipment Zone
+				Dubai Investment Park
+					Dubai Investment Park
+					Dubai Lagoon
+					Dunes Village
+					European Business Park
+					Ewan Residences
+					Regent Business Park
+					Schon Business Park
+				Dubai Land
+					Akoya By Damac
+					Al Ruwayyah
+					Al Waha
+					Arjan
+					Bawadi
+					City of Arabia
+					<option value="2.189">Dubai Land</option>
+					Dubai Lifestyle City
+					Dubai Residence Complex
+					Elite Towers
+					Eye Park
+					Falcon City of Wonders
+					Golf City
+					Layan Community
+					Living Legends
+					Liwan
+					Majan
+					Maysan Towers
+					Mizin
+					Mudon
+					Pacific Village
+					Remraam
+					Sanali Towers
+					Skycourt Towers
+					The Sustainable City
+					The Villa
+				Dubai Marina
+					Al Atina
+					Al Majara
+					Al Marjan Villas
+					Al Sahab
+					Bay Central
+					D.E.C Towers
+					Dubai Marina
+					Dubai Marina Walk
+					Emaar 6 Towers
+					Marina Diamonds
+					Marina Gate
+					Marina Promenade
+					Marina Quays
+					Marina View
+					Marina Wharf
+					Marinascape
+					Oceanic
+					Park Island
+					Silverene
+					The Jewels
+					The Waves
+				Dubai Media City
+					Al Kazim Towers
+					Al Meera Complex
+					Al Sufouh Towers
+					Business Central
+					Cordoba Residence
+					Dubai Media City
+					Knowledge Village
+				Dubai Pearl
+					Dubai Pearl
+					Dubai Pearl Hotel Towers
+					Pearl Residences
+				Dubai Promenade
+					Dubai Promenade
+					The Beach Towers
+					The Channel Towers
+					The Marina Towers
+				Dubai Silicon Oasis
+					Atrium Gold Towers
+					Axis Residence
+					Coral Residence
+					Donna Towers
+					Dubai Silicon Oasis
+					Jade Residence
+					Oasis High Park
+					Palace Towers
+					Park Avenue
+					Ruby Residence
+					Saima Heights
+					Silicon Gates
+					Silicon Heights
+					Spring Oasis
+					The Dunes
+					University View
+				Dubai Sports City
+					Canal Residence
+					Champions Towers
+					Chapal The Destiny
+					Chapal The Glory
+					Crown Avenue
+					Dubai Sports City
+					Eagle Heights
+					Eden Garden
+					Elite Sports Residence
+					Gallery Villas
+					German Sports Towers
+					Hub-Golf Towers
+					Links View
+					Olympic Park Towers
+					Park View
+					Prime Villa
+					Royal Residence
+					Rufy Residency
+					The Arena Apartments
+					Victory Heights
+					Zenith Towers
+				Dubai Studio City
+					Dubai Studio City
+				Dubai Waterfront
+					Badrah
+					Beachfront Living
+					Dubai Waterfront
+					Madinat Al Arab
+					Riviera
+					The Boulevard
+					The Waves
+					Uptown Waterfront
+					Veneto
+				Dubai World Central
+					Amber Residence
+					Celestia
+					Residential City
+					Tenora
+					The Rubix
+				DuBiotech
+					DuBiotech
+					Mirar Residences
+					NCC Harmony Twin Tower
+				Emirates Hills
+					Sector E
+					Sector H
+					Sector HT
+					Sector J
+					Sector L
+					Sector P
+					Sector R
+					Sector V
+					Sector W
+				Forbidden City
+					Ghawway
+					Hud Hud
+					Karawan
+					Sallal
+					Tillali
+				Global Village
+					Global Village
+				Green Community
+					Garden East Apartments
+					Garden West Apartments
+					Green Community
+					Green Community East
+					Green Community West
+					Lake Apartments
+					Terrace Apartments
+				Greens
+					Al Alka
+					Al Arta
+					Al Dhafra
+					Al Ghaf
+					Al Ghozlan
+					Al Jaz
+					Al Nakheel
+					Al Samar
+					Al Sidir
+					Al Thayyal
+					Greens
+				IMPZ
+					Beirut Towers
+					Centrium Towers
+					Dana Gardens
+					IMPZ
+					Lago Vista
+					Lakeside Residence
+					Oakwood Residency
+					Qasr Sabah
+					Ramada Residence
+					The Crescent
+				International City
+					Al Dana
+					Central Business District
+					China Cluster
+					Emirates Cluster
+					England Cluster
+					France Cluster
+					Greece Cluster
+					Indigo Towers
+					International City
+					Italy Cluster
+					Lake District
+					Morocco Cluster
+					Persia Cluster
+					Prime Residency
+					Riviera Residence
+					Russia Cluster
+					Spain Cluster
+					Warsan Village
+				Jebel Ali
+					Jebel Ali Airport
+					Jebel Ali Freezone
+					Jebel Ali Industrial
+					Jebel Ali Port
+					Jebel Ali Village
+				Jumeirah
+					Jumeira Beach Road
+					Jumeirah 1
+					Jumeirah 2
+					Jumeirah 3
+				Jumeirah Beach Residence
+					Al Fattan Marine Towers
+					Amwaj
+					Bahar
+					Murjan
+					Rimal
+					Sadaf
+					Shams
+					The Walk
+				Jumeirah Golf Estates
+					Earth
+					Fire
+					Jumeirah Golf Estates
+					Water
+					Wind
+				Jumeirah Heights
+					Cluster A
+					Cluster B
+					Cluster C
+					Cluster D
+					Cluster E
+					Cluster F
+					Loft Cluster
+					The Frond
+				Jumeirah Islands
+					Contemporary Cluster
+					European Clusters
+					Islamic Clusters
+					Mediterranean Clusters
+					Oasis Clusters
+					The Mansions
+					Tropical Clusters
+				Jumeirah Lake Towers
+					Al Seef Towers
+					Green Lake Towers
+					Jewellery and Gemplex
+					Jumeirah Bay Towers
+					Lake Allure
+					Lake Almas East
+					Lake Almas West
+					Lake Elucio
+					Mazaya Business Avenue
+					Saba Towers
+				Jumeirah Park
+					Heritage
+					Legacy
+					Mediterranean
+					Regional
+				Jumeirah Village Circle
+					Al Muhra
+					Cadi Residences
+					Desert Rose
+					Diamond Arch
+					Diamond Views
+					Eden Residence
+					Emirates Gardens
+					Excellence Residence
+					Gardenia
+					Green Court
+					Hanover Square
+					Indigo Ville
+					Jehaan Residences
+					Jouri Residence 1
+					Jouri Residence 2
+					Jouri Residence 3
+					Jouri Residence 4
+					Jouri Residence 5
+					Jouri Residence 6
+					Judi
+					Jumeirah Village Circle
+					La Riviera Estate
+					Masaar Residence
+					Metropolis Lofts
+					Mirabella
+					Mirage Residence
+					Monte Carlo Residence
+					Nakheel Townhouses
+					Noora Residence
+					Pacific Wave Residence
+					Plaza Residences
+					Quattro
+					Reliance Towers
+					Rufi Downtown
+					Seasons Community
+					Serena Residence
+					Serenity Lakes
+					The Lawns
+					Tuscan Residences
+					Westar
+				Jumeirah Village Triangle
+					Green Park
+					Jumeirah Village Triangle
+					Silver Stallion Towers
+				Maritime City
+					Harbour Residences
+					Jumeirah Waterfront
+					The Maritime Centre
+				Meadows
+					Meadows
+				Meydan City
+					Meydan City
+					Millennium Estates
+					The Polo Residence
+				Mina Al Arab
+					Precinct Towers
+				Mirdif
+					Al Badiya
+					Ghoroob
+					Shorouq
+					Uptown Mirdif
+				Mohammad Bin Rashid City
+					Mohammad Bin Rashid City
+				Motor City
+					Autodrome & Business Park
+					Barton House
+					Bennett House
+					Claverton House
+					Detroit House
+					Dickens Circus
+					Foxhill
+					Green Community Motor City
+					Marlowe House
+					Motor City
+					New Bridge Hills
+					Norton Court
+					Regent House
+					Shakespeare Circus
+					Sherlock Circus
+					Sherlock House
+					Uptown Motorcity
+					Widcombe House
+					Windsor Crescent
+				Mushrif Park
+					Mushrif Park
+				Nadd Al Hammar
+					Nad Al Hammar
+				Nadd Al Sheba
+					Nad Al Sheba 1
+					Nad Al Sheba 2
+					Nad Al Sheba 3
+					Nad Al Sheba 4
+					Sobha City
+				Old Town
+					Kamoon
+					Miska
+					Reehan
+					The Old Town Island
+					Yansoon
+					Zaafaran
+					Zanzabeel
+				Oud Al Muteena
+					Oud Al Muteena
+				Palm Jebel Ali
+					Garden Homes
+					Palm Jebel Ali
+					Palm Springs
+					Signature Villas
+					The Cove
+					Water Homes
+					Waterfront
+				Palm Jumeirah
+					Atlantis The Palm
+					<option value="2.967">Azure Residences</option>
+					Canal Cove Villas
+					Club Vista Mare
+					Garden Homes
+					Gateway Towers
+					Golden Mile
+					Grandeur Residences
+					Kingdom Of Sheba
+					Marina Residences
+					Oceana
+					Palm Views
+					Palma Residences
+					Shoreline Apartments
+					Signature Villas
+					The Crescent
+					The Fairmont Palm Residences
+					Tiara Residences
+					Viceroy
+					Water Villas
+				Ras Al Khor
+					Ras Al Khor
+					Ras Al Khor Industrial
+				Reem Community
+					Mira
+					Mira Oasis
+				Sheikh Zayed Road
+					Al Rostomani Towers
+					API Trio Towers
+					Emaar Business Park
+					Saeed Towers
+					Sheikh Zayed Road
+				Technology Park
+					Technology Park
+				Tecom
+					Al Fahad Towers
+					Al Noor Towers
+					Al Shaiba Towers
+					Al Thuraya Towers
+					Art Towers
+					Executive Heights
+					Green View
+					Madison Residency
+					Media Rotana Hotel Towers
+					Onyx Towers
+					Smart Heights
+					Tecom
+					Tecom Two Towers
+					Tecom Villas Complex
+				The Gardens
+					The Gardens
+				The Hills
+					Vida Residence
+				The Lagoons
+					Dubai Lagoons
+					Phase 1
+					Phase 2
+					Phase 3
+					Phase 4
+				The Lakes
+					Deema
+					Forat
+					Ghadeer
+					Hattan
+					Maeen
+					Zulal
+				The Springs
+					The Springs
+				The Views
+					Arno
+					Golf Towers
+					Mosela
+					The Fairways
+					The Links
+					The Views
+					Travo
+					Turia
+					Una
+				The World Islands
+					Asia
+					Coral Island
+					Europe Island
+					Germany Island
+					Jasmine Gardens
+					Oqyana
+					Perseus Rostov Island
+				Umm Al Sheif
+					Umm Al Sheif
+				Umm Hurair
+					Umm Hurair 1
+				Umm Ramool
+					Umm Ramool
+				Umm Suqueim
+					Umm Suqueim 1
+					Umm Suqueim 2
+					Umm Suqueim 3
+					Umm Suqueim 4
+					Umm Suqueim Road
+				World Trade Center
+					World Trade Center
+					World Trade Centre Residence
+				Zabeel
+					Zabeel 1
+					Zabeel 2
+					Zabeel Road
