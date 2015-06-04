@@ -1,6 +1,6 @@
 # Copyright BrokerConnector 2014. All rights reserved.
 # Author: github.com/andregoiano
-# Version 1.0
+# Version 1.1
 # http://www.brokerconnector.com/
 
 import math, datetime, json
