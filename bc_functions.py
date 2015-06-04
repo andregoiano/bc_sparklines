@@ -1,6 +1,7 @@
 # Copyright BrokerConnector 2014. All rights reserved.
 # Author: github.com/andregoiano
 # Version 1.1
+# Last Updated: June 2015
 # http://www.brokerconnector.com/
 
 import math, datetime, json
@@ -20,7 +21,7 @@ def marketGap(listings):
 # print marketGap(bcBidListings)
 
 def marketBullBearRatio(units, bids):
-	# Defines the pendulum between bids and units activities in a market
+	# Defines the pendulum position between bids and units activities in a market
 	a = len(units)
 	b = len(bids)
 	c = a / b
